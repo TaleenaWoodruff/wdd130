@@ -16,7 +16,21 @@
     --nav-hover-link-color: #dddcac;
     --nav-hover-background-color: #373c3a;
 }
-
+h1 {
+    color: #a5d7e6;
+    position: absolute;
+}
+h2{}
+h3{}
+p{}
+article image {
+   width: 150;
+   height: auto;
+    float: right;
+}
+article {
+    position: absolute;
+}
 .hero img {
     display: block;
     width: 100%;
