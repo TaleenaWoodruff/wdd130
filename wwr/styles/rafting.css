@@ -73,11 +73,9 @@ header img {
     padding: 20px;
 
 }
-.sociallinks {
-      & img {
-           /*position: absolute;*/
-              height: 40px;
-        }
+.sociallinks img{
+   /*position: absolute;*/
+   height: 40px;
 }
 .sociallinks a {
     text-decoration: none;
