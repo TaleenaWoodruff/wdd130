@@ -78,7 +78,7 @@ header img {
            /*position: absolute;*/
               height: 40px;
     }
-    a {
-     text-decoration: none;
-    }
 }
+.sociallinks a {
+    text-decoration: none;
+   }
