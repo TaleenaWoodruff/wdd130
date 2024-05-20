@@ -53,6 +53,7 @@ h2{
 }
 section {
     position: relative;
+    /* border: 2px solid red; */
 }
 
 
@@ -73,7 +74,7 @@ header {
     /* border: 2px solid red; */
 }
 nav{
-   text-align: center;
+   text-align: right;
    /* border: 2px solid red; */
 }
 .navigation{
@@ -81,6 +82,7 @@ nav{
     list-style-type: none;
     padding-left: 0;
     /* border: 3px solid blueviolet; */
+    text-align: center;
 }
 .navigation li{
     flex: 1 1 100%;
@@ -110,6 +112,28 @@ header img {
 .history2 div{
     padding: 5px;
     /* border: 1px solid green;  */
+}
+.adventure2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* border: 3px solid blueviolet; */
+    column-gap: 0;
+    padding-left: 0px;
+}
+.img1 {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    /* border: 1px solid green; */
+}
+.adventure2 img {
+    width: 300px;
+    padding: 0;
+}
+.adventure2 figure{
+    /* border: 1px solid green; */
+    margin: 0px;
+    padding: 0;
+    place-items: center;
 }
 .sociallinks img{
    /*position: absolute;*/
