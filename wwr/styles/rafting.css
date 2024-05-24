@@ -102,7 +102,7 @@ nav{
 }
 .navigation a {
     display: block;
-    color: #dddcac;
+    color: #FEFAE0;
     text-decoration: none;
 }
 header img {
@@ -116,13 +116,16 @@ header img {
     position: center;
 }
 .history2 {
+    /* display: flex;
+    justify-content: space-around;
+    align-items: stretch; */
     display:grid;
     grid-template-columns: 1fr 260px 1fr;
     /* border: 3px solid blueviolet; */
 }
 .history2 div{
     padding: 5px;
-    /* border: 1px solid green;  */
+    /* border: 1px solid green; */
 }
 .adventure2 {
     display: grid;
