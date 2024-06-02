@@ -14,10 +14,9 @@
             </nav>
         </header>
         <main>
-            <h1>Quiz | Taleena Woodruff | WDD 130 </h1>
+            <h1> Basic HTML & CSS Quiz </h1>
             <form>
                 <fieldset>
-                    <legend> Contact Information</legend>
                     <!-- form elements will go here-->
                     <label for="Q1">What does HTML stand for?</label>
                     <input type="text" id="Q1" name="Q1">
@@ -25,19 +24,18 @@
                     <textarea id="answerQ2" name="answerQ2" rows="4" placeholder="Type your answer here"></textarea>
                     <label for="Q3">What is the shortcut key(s) to put in a comment for CSS?</label>
                     <select id="Q3" name="Q3">
+                        <option value="" selected disabled>Choose One ...</option>
                         <option value="/">/</option>
                         <option value="Ctrl + /">Ctrl + /</option>
                         <option value="Ctrl + !">Ctrl + !</option>
                     </select>
                     <label for="Q4">How many heading levels does HTML support?</label>
-
+                    <input type="number" id="Q4" name="Q4">
                     <label for="Q5">What does CSS stand for?</label>
                     <input type="text" id="Q5" name="Q5">
                 </fieldset>
-                <fieldset>
-                    <legend>Questions</legend>
-                    <!-- form elements will go here-->
-                </fieldset>
+                <button type="submit">Submit Quiz</button>
+            </form>
         </main>
         <aside>
 
