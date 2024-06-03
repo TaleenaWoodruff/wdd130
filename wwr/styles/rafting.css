@@ -152,11 +152,25 @@ header img {
     /* border: 1px solid green; */
 }
 .adventure2 {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    /* grid-template-columns: 1fr 1fr 1fr;
     /* border: 3px solid blueviolet; */
-    column-gap: 0;
-    padding-left: 0px;
+    /* column-gap: 0;
+    padding-left: 0px; */
+}
+.adventure2 img {
+    width: 100%;
+    /* margin: 5px; */
+    padding: 0;
+}
+.adventure2 figure{
+    /* border: 1px solid green; */
+    margin: 5px;
+    padding: 0;
+    place-items: center;
+    width: 20%;
 }
 form {
     width: 800px;
@@ -199,20 +213,11 @@ button {
 button:hover {
     background-color: #283618;
 }
-.img1 {
-    grid-row-start: 1;
-    grid-row-end: 3;
-    /* border: 1px solid green; */
-}
-.adventure2 img {
-    width: 300px;
-    padding: 0;
-}
-.adventure2 figure{
-    /* border: 1px solid green; */
-    margin: 0px;
-    padding: 0;
-    place-items: center;
+.sociallinks{
+    /* display: flex; */
+    justify-content: flex-end;
+    border: 2px solid green;
+    width: 100%;
 }
 .sociallinks img{
    /*position: absolute;*/
@@ -221,3 +226,19 @@ button:hover {
 .sociallinks a {
     text-decoration: none;
    }
+footer{
+    display: flex;
+    /* justify-content: space-between; */
+    /* width: 100%; */
+    border: 2px solid red;
+}
+footer p{
+    text-align: center;
+    /* align-items: center; */
+    width:100%;
+    /* border: 2px solid red; */
+}
+.link-container{
+    position: absolute;
+    width: 100%;
+}
