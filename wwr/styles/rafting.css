@@ -16,10 +16,10 @@
     --nav-hover-link-color: #A16017;
     --nav-hover-background-color: #283618;
 }
-.hero {
+.hero, .contact {
     position: relative;
 }
-.hero p{
+.hero p, .contact p{
     text-align: left;
     position: absolute;
     padding: 7px;
@@ -35,35 +35,54 @@ h1 {
     padding-top: 20px;
     padding-bottom: 20px;
 }
-.hero img {
+.container {
+    height: 100%;
+    display: flex;
+    float: right;
+    width: 20%;
+    padding-right: 17px;
+    /* padding: 20px; */
+    align-items: center;
+}
+.hero img, .contact img {
     display: block;
     width: 100%;
     height: auto;
 }
-.hero article img {
-    width: 20%;
+.hero article img, .contact article .map {
+    width: 100%;
     height: auto;
-     float: right;
-    padding-top: 40px;
-    padding-right: 17px;
-
+    float: right;
+    /* padding-top: 40px; */
+    /* margin: 50%; */
+    /* margin-top: 50%;
+    margin-bottom: 50%; */
+    /* display: flex; */
+    top: 50%;
+    /* padding-bottom: 50%; */
+    /* border: 2px solid red; */
  }
 h2{
     text-align: center;
     color: #FEFAE0;
-   background-color: #373c3a;
+   background-color: #283618;
     /*position: absolute;
     top: 20%;*/
     width: 100%;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 section {
     position: relative;
     /* border: 2px solid red; */
 }
-
-
+h3{
+    padding-left: 17px;
+}
+.address  {
+    margin-left: 17px;
+    /* border: 2px solid red; */
+}
 article {
     background-color: white;
     position: absolute;
@@ -71,6 +90,8 @@ article {
     width: 90%;
     left: 5%;
     height: 200px;
+    /* display: grid;
+    align-items: center; */
 }
 header {
     background-color: white;
@@ -105,12 +126,12 @@ nav{
     text-decoration: none;
 }
 header img {
-    width: 150px;
+    width: 100px;
     padding: 15px;
     margin-left: auto;
     margin-right: auto;
 }
-.history img{
+.history img, .message img{
     width: 250px;
     /* position: center; */
     align-self: flex-start;
@@ -136,6 +157,47 @@ header img {
     /* border: 3px solid blueviolet; */
     column-gap: 0;
     padding-left: 0px;
+}
+form {
+    width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    background-color: #FEFAE0;
+    display: grid;
+    color: black;
+     /* border: solid red; */
+}
+fieldset {
+    display: grid;
+    grid-gap: .25rem;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+    /* border: solid red; */
+}
+label, input, button, select, textarea {
+    font-family: Roboto, Arial, sans-serif;
+}
+.radio-label{
+    color: black;
+    display: flex;
+}
+.radio-label input[type="radio"]{
+    order: -1;
+}
+button {
+    margin: 1rem;
+    background-color: #7e8475;
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+}
+button:hover {
+    background-color: #283618;
 }
 .img1 {
     grid-row-start: 1;
