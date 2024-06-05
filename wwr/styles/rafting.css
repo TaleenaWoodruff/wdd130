@@ -30,7 +30,7 @@ h1 {
     color: #FEFAE0;
     background-color: #283618;
     position: absolute;
-    top: 10%;
+    top: 5%;
     width: 100%;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -84,14 +84,21 @@ h3{
     /* border: 2px solid red; */
 }
 article {
+    position: absolute;
+    top: 10%;
+    width: 90%;
+    left: 5%;
+    height: 200px;
+    /* display: grid;
+    align-items: center; */
+}
+.background {
     background-color: white;
     position: absolute;
     top: 40%;
     width: 90%;
     left: 5%;
     height: 200px;
-    /* display: grid;
-    align-items: center; */
 }
 header {
     background-color: white;
@@ -182,6 +189,9 @@ form {
     display: grid;
     color: black;
     /* border: solid red; */
+}
+.subscribe {
+    width: 500px;
 }
 fieldset {
     display: grid;
