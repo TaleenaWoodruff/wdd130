@@ -5,7 +5,7 @@
     --primary-color: #black;
     --secondary-color:#FEFAE0;
     --accent1-color: #white;
-    --accent2-color: #7e8475;
+    --accent2-color: #565B4D;
 
     --heading-font: 'Roboto', serif;
     --paragraph-font: 'Roboto', serif;
@@ -203,7 +203,7 @@ label, input, button, select, textarea {
 }
 button {
     margin: 1rem;
-    background-color: #7e8475;
+    background-color: #565B4D;
     color: #fff;
     border: none;
     border-radius: .5rem;
