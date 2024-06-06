@@ -25,6 +25,8 @@
 .hp {
     padding: 4px;
     font-style: italic;
+    font-size: 1.5em;
+    font-weight: bold;
 }
 table {
     border-collapse: collapse;
@@ -306,10 +308,11 @@ footer{
 footer p{
     text-align: center;
     /* align-items: center; */
-    width: 1000px;;
-    /* border: 2px solid red; */
+    width: 1000px;
+    /* border: 2px solid green; */
 }
 .link-container{
-    position: absolute;
+    position: relative;
     width: 100%;
+    /* border: 2px solid red; */
 }
