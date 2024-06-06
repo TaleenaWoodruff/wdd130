@@ -17,6 +17,7 @@
     --nav-hover-background-color: #283618;
     /* border: 2px solid orange; */
 }
+
 .subscribe input{
     width: 100%;
 
@@ -55,6 +56,7 @@
 .item-text1{
     grid-area: 1/3/1/3;
     font-size: x-large;
+    color: #283618;
     /* border: 2px solid orange; */
 }
 .item-text1 li, .item-text2 li{
@@ -63,6 +65,7 @@
 .item-text2 {
     grid-area: 2/1/2/1;
     font-size: x-large;
+    color: #283618;
     /* border: 2px solid orange; */
 }
 .item-pic2 {
@@ -305,6 +308,7 @@ form.formfill{
     background-color: #FEFAE0;
     display: grid;
     color: black;
+    padding-bottom: 20px;
     /* border: solid red; */
 }
 .subscribe {
