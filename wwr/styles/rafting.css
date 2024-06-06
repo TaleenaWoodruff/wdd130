@@ -2,7 +2,7 @@
 :root{
     /* Whatever is changed here needs to be changed in the site plan and vis versa */
     width: 1000px;
-    --primary-color: #black;
+    --primary-color: #283618;
     --secondary-color:#FEFAE0;
     --accent1-color: #white;
     --accent2-color: #565B4D;
@@ -15,6 +15,61 @@
     --nav-link-color: #FEFAE0;
     --nav-hover-link-color: #A16017;
     --nav-hover-background-color: #283618;
+    /* border: 2px solid orange; */
+}
+.trips {
+    display: flex;
+    width: 100%;
+    /* border: 2px solid red; */
+}
+.hp {
+    padding: 4px;
+    font-style: italic;
+}
+table {
+    border-collapse: collapse;
+    border: 2px solid #283618;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+caption {
+    caption-side: bottom;
+    padding: 10px;
+    font-weight: bolder;
+}
+/* thead, tfoot {
+    background-color: #FEFAE0;
+} */
+th,td {
+  border: 1px solid rgb(160 160 160);
+  padding: 8px 10px;
+}
+
+td:last-of-type {
+  text-align: center;
+}
+
+tbody > tr:nth-of-type(even) {
+  background-color: rgb(237 238 242);
+}
+
+tfoot th {
+  text-align: right;
+}
+
+tfoot td {
+  font-weight: bold;
+}
+
+.column {
+    flex: 50%;
+    padding: 0 4px;
+    width: 50%;
+}
+.column img {
+    width: 95%;
 }
 .hero, .contact {
     position: relative;
@@ -76,8 +131,14 @@ section {
     position: relative;
     /* border: 2px solid red; */
 }
-h3{
+.contacth3{
     padding-left: 17px;
+}
+h3{
+    font-size: x-large;
+}
+.trips h4, .trips p, .trips img {
+    padding-left: 10px;
 }
 .address  {
     margin-left: 17px;
