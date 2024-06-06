@@ -242,7 +242,7 @@ header img {
     place-items: center;
     width: 20%;
 }
-form {
+.formfill{
     width: 800px;
     margin: 0 auto;
     padding: 1rem;
